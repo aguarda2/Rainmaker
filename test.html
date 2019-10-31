@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #navbar{
+            text-align: center;
+        }
+        #navbar ul{
+            list-style: none;
+        }
+
+        #navbar ul li{
+            background-color: blue;
+            width:150px;
+            border: 1px solid white;
+            height:40px;
+            line-height: 50px;
+            text-align: center;
+            float: left;
+            color: white;
+            font-size: auto;
+            position: relative;
+        }
+
+        #navbar ul li:hover{
+            background-color: green;
+        }
+
+        #navbar ul ul{
+            display: none;
+        }
+
+        #navbar ul li:hover > ul{
+            display: block;
+        }
+
+        #navbar ul ul ul{
+            margin-left:150px;
+            top:0px;
+            position:absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT US
+                <ul>
+                    <li>Board of Directors
+                        <ul>
+                            <li>John Herpy</li>
+                            <li>Kenneth McGowan</li>
+                            <li>Alex Herpy</li>
+                        </ul>
+                    </li>
+                    <li>Social
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </li>
+                    <li>Impact</li>
+                    <li>How It Works</li>
+                </ul>
+            </li>
+            <li>DONATE</li>
+            <li>VOLUNTEER</li>
+            <li>CONTACT US</li>
+            <li>EVENTS REGISTRATION</li>
+            <li>SPONSORS</li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    background-color: #fff;
+    border: none;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    
+    
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.center-pic{
+    height: 400px;
+    background-image: url("20170208_145652(0).jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.support { 
+    background-color: white; 
+    border: 2px solid black; 
+    color: green; 
+    padding: 5px 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 10px 30px; 
+    cursor: pointer; 
+}
+
+.content{
+    text-align: left;
+    padding: 100px;
+}
+
+.row {
+    display:         flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+}
+  
+.column {
+    width:20%;
+    margin:10px;
+    font-size:100%; 
+    text-align:center;        
+}
+
+@media screen and (max-width: 700px) {
+    .column {
+      width: 50%;
+    }
+}
