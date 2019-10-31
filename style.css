@@ -22,13 +22,9 @@
 
 .center-pic{
     height: 400px;
-<<<<<<< HEAD
     background-image: url("20170208_145652(0).jpg");
     background-size: cover;
     background-position: center;
-=======
-    background-color:lightgray;
->>>>>>> d1163fd633894e7572015cf8c96d3635e44ae4ff
     text-align: center;
     padding: 50px;
 }
@@ -46,7 +42,6 @@
 }
 
 .content{
-<<<<<<< HEAD
     text-align: left;
     padding: 100px;
 }
@@ -68,8 +63,4 @@
     .column {
       width: 50%;
     }
-=======
-    text-align: center;
-    padding: 100px;
->>>>>>> d1163fd633894e7572015cf8c96d3635e44ae4ff
 }
